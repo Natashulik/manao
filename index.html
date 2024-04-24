@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Manao</title>
+    <link rel="stylesheet" href="./css/reset.css" >
+    <link rel="stylesheet" href="./css/style.css" >
+    <link rel="stylesheet" href="./css/slick.css" >
+    <link rel="stylesheet" href="./css/slick-theme.css" >
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__wrapper">
+        <div class="header__logo">
+          <a href="#!" class="header__logo-link">
+            <img
+              src="./assets/img/svg/manao.svg"
+              alt="logo"
+              class="header__logo-pic"
+            >
+          </a>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#about" class="header__link">О нас </a>
+            </li>
+            <li class="header__item">
+              <a href="#services" class="header__link">Услуги </a>
+            </li>
+            <li class="header__item">
+              <a href="#publications" class="header__link">Публикации</a>
+            </li>
+          </ul>
+          <div class="header__nav-close">
+            <span class="header__nav-close-line"></span>
+            <span class="header__nav-close-line"></span>
+          </div>
+        </nav>
+        <div class="header__burger burger">
+          <span class="burger__line burger__line_first"></span>
+          <span class="burger__line burger__line_second"></span>
+          <span class="burger__line burger__line_third"></span>
+        </div>
+        <div class="header__contacts">
+          <a href="tel:74951281324" class="header__phone-box">
+            <img
+              src="./assets/img/svg/phone.svg"
+              alt="phone"
+              class="header__phone-image"
+            >
+            <p class="header__phone">+7 (495) 128-13-24</p>
+          </a>
+          <a
+            href="mailto:nata17v@mail.ru"
+            target="_blank"
+            class="header__email-box"
+          >
+            <img
+              src="./assets/img/svg/email.svg"
+              alt="email"
+              class="header__email-image"
+            >
+            <p class="header__email">info@manao-team.com</p>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <!--intro start-->
+      <section class="intro">
+        <div class="intro__wrapper">
+          <div class="intro__content">
+            <p class="intro__text">Верстка. Программирование. Дизайн.</p>
+            <h1 class="intro__title">
+              Техническая поддержка сайтов и корпоративных порталов
+            </h1>
+            <a href="#form" class="intro__button">Отправить сайт на оценку</a>
+          </div>
+          <div class="intro__patners">
+            <p class="intro__patners-text">Партнеры:</p>
+            <div class="intro__logos">
+              <img
+                src="./assets/img/svg/bitrix24.svg"
+                alt="bitrix24"
+                class="intro__logo bitrix24-logo"
+              >
+              <img
+                src="./assets/img/svg/bitrix-logo.svg"
+                alt="bitrix-logo"
+                class="intro__logo bitrix-logo"
+              >
+              <img
+                src="./assets/img/svg/1c-bitrix.svg"
+                alt="1c-bitrix"
+                class="intro__logo"
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--intro end-->
+
+      <!--about start-->
+      <section class="about" id="about">
+        <div class="wrapper about__wrapper">
+          <div class="about__inner">
+            <div class="about__content">
+              <h2 class="about__title">О нас</h2>
+              <h3 class="about__subtitle">
+                Техподдержка от бесперебойного аутсорс-продакшна
+              </h3>
+              <p class="about__text about__text-top">
+                Являясь партнером более 30 агентств, которые доверили нам 100+
+                проектов и могут подтвердить качество работы, мы сформировали
+                новую услугу, использовав весь опыт, накопленный в первом юните.
+              </p>
+
+              <p class="about__text">
+                Manao.Support — это концентрация системной работы, четких
+                процессов и регламентов, позволяющих минимизировать ситуации,
+                когда исполнители о чем-то забыли, не завершили часть задачи или
+                просто некорректно ее поняли.
+              </p>
+              <div class="about__pictures">
+                <div>
+                  <img
+                    src="./assets/img/developers2.png"
+                    alt="developers"
+                    class="about__small-image"
+                  >
+                </div>
+                <div>
+                  <img
+                    src="./assets/img/developers3.png"
+                    alt="developers"
+                    class="about__small-image"
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="about__foto">
+              <img
+                src="./assets/img/developers1.png"
+                alt="developers"
+                class="about__large-image"
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--about end-->
+      <!--services start-->
+      <section class="services" id="services">
+        <div class="wrapper services__wrapper">
+          <h2 class="services__title">Услуги</h2>
+          <p class="services__text">
+            Возьмем на себя комплексную поддержку сайта/портала
+          </p>
+          <div class="services__grid">
+            <div class="services__card">
+              <div class="services__card-pic">
+                <img
+                  src="./assets/img/svg/service1.svg"
+                  alt="service"
+                  class="services__card-image"
+                >
+              </div>
+              <p class="services__card-text">Оптимизировать верстку</p>
+            </div>
+            <div class="services__card">
+              <div class="services__card-pic">
+                <img
+                  src="./assets/img/svg/service2.svg"
+                  alt="service"
+                  class="services__card-image"
+                >
+              </div>
+              <p class="services__card-text">Создать <br >страницы</p>
+            </div>
+            <div class="services__card">
+              <div class="services__card-pic">
+                <img
+                  src="./assets/img/svg/service3.svg"
+                  alt="service"
+                  class="services__card-image"
+                >
+              </div>
+              <p class="services__card-text">Адаптировать содержание</p>
+            </div>
+            <div class="services__card">
+              <div class="services__card-pic">
+                <img
+                  src="./assets/img/svg/service4.svg"
+                  alt="service"
+                  class="services__card-image"
+                >
+              </div>
+              <p class="services__card-text">Настроить интеграцию</p>
+            </div>
+            <div class="services__card">
+              <div class="services__card-pic">
+                <img
+                  src="./assets/img/svg/service5.svg"
+                  alt="service"
+                  class="services__card-image"
+                >
+              </div>
+              <p class="services__card-text">Модернизировать сайт</p>
+            </div>
+            <div class="services__card">
+              <div class="services__card-pic">
+                <img
+                  src="./assets/img/svg/service6.svg"
+                  alt="service"
+                  class="services__card-image"
+                >
+              </div>
+              <p class="services__card-text">Исправить ошибки</p>
+            </div>
+            <div class="services__card">
+              <div class="services__card-pic">
+                <img
+                  src="./assets/img/svg/service7.svg"
+                  alt="service"
+                  class="services__card-image"
+                >
+              </div>
+              <p class="services__card-text">Разработать функционал</p>
+            </div>
+            <div class="services__card">
+              <div class="services__card-pic">
+                <img
+                  src="./assets/img/svg/service8.svg"
+                  alt="service"
+                  class="services__card-image"
+                >
+              </div>
+              <p class="services__card-text">Обновить <br >систему</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--services end-->
+      <!--publications start-->
+      <section class="publications" id="publications">
+        <div class="publications__wrapper">
+          <h2 class="publications__title">Публикации</h2>
+          <p class="publications__text">Делимся своим опытом и экспертизой</p>
+          <div class="publications__slider">
+            <div class="publications__card">
+              <img
+                src="./assets/img/space.png"
+                alt="space"
+                class="publications__card-image"
+              >
+              <div class="publications__card-content">
+                <h3 class="publications__card-title">
+                  Как мы подбираем людей для аутсорс-продакшна
+                </h3>
+                <p class="publications__card-text">
+                  Реализация дополнительного поля для элементов, которое
+                  генерируется по определенным правилам (как SEO поля).
+                </p>
+                <div class="publications__card-bottom">
+                  <img
+                    src="./assets/img/svg/manao2.svg"
+                    alt="logo"
+                    class="publications__card-logo"
+                  >
+                  <div class="publications__calendar-block">
+                    <img
+                      src="./assets/img/svg/calendar.svg"
+                      alt="calendar"
+                      class="publications__card-calendar"
+                    >
+                    <p class="publications__card-data">12 мая 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="publications__card">
+              <img
+                src="./assets/img/satellite.png"
+                alt="satellite"
+                class="publications__card-image"
+              >
+              <div class="publications__card-content">
+                <h3 class="publications__card-title">
+                  Как мы подбираем людей для аутсорс-продакшна
+                </h3>
+                <p class="publications__card-text">
+                  Реализация дополнительного поля для элементов, которое
+                  генерируется по определенным правилам (как SEO поля).
+                </p>
+                <div class="publications__card-bottom">
+                  <img
+                    src="./assets/img/svg/manao2.svg"
+                    alt="logo"
+                    class="publications__card-logo"
+                  >
+                  <div class="publications__card-bottom">
+                    <img
+                      src="./assets/img/svg/calendar.svg"
+                      alt="calendar"
+                      class="publications__card-calendar"
+                    >
+                    <p class="publications__card-data">12 мая 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="publications__card">
+              <img
+                src="./assets/img/man.png"
+                alt="man"
+                class="publications__card-image"
+              >
+              <div class="publications__card-content">
+                <h3 class="publications__card-title">Как мы подбираем людей</h3>
+                <p class="publications__card-text">
+                  Реализация дополнительного поля для элементов, которое
+                  генерируется по определенным правилам (как SEO поля).
+                </p>
+                <div class="publications__card-bottom">
+                  <img
+                    src="./assets/img/svg/cossa.svg"
+                    alt="logo"
+                    class="publications__card-logo"
+                  >
+                  <div class="publications__card-bottom">
+                    <img
+                      src="./assets/img/svg/calendar.svg"
+                      alt="calendar"
+                      class="publications__card-calendar"
+                    >
+                    <p class="publications__card-data">12 мая 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="publications__card">
+              <img
+                src="./assets/img/space.png"
+                alt="space"
+                class="publications__card-image"
+              >
+              <div class="publications__card-content">
+                <h3 class="publications__card-title">
+                  Как мы подбираем людей для аутсорс-продакшна
+                </h3>
+                <p class="publications__card-text">
+                  Реализация дополнительного поля для элементов, которое
+                  генерируется по определенным правилам (как SEO поля).
+                </p>
+                <div class="publications__card-bottom">
+                  <img
+                    src="./assets/img/svg/manao2.svg"
+                    alt="logo"
+                    class="publications__card-logo"
+                  >
+                  <div class="publications__calendar-block">
+                    <img
+                      src="./assets/img/svg/calendar.svg"
+                      alt="calendar"
+                      class="publications__card-calendar"
+                    >
+                    <p class="publications__card-data">12 мая 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="publications__card">
+              <img
+                src="./assets/img/satellite.png"
+                alt="satellite"
+                class="publications__card-image"
+              >
+              <div class="publications__card-content">
+                <h3 class="publications__card-title">
+                  Как мы подбираем людей для аутсорс-продакшна
+                </h3>
+                <p class="publications__card-text">
+                  Реализация дополнительного поля для элементов, которое
+                  генерируется по определенным правилам (как SEO поля).
+                </p>
+                <div class="publications__card-bottom">
+                  <img
+                    src="./assets/img/svg/manao2.svg"
+                    alt="logo"
+                    class="publications__card-logo"
+                  >
+                  <div class="publications__card-bottom">
+                    <img
+                      src="./assets/img/svg/calendar.svg"
+                      alt="calendar"
+                      class="publications__card-calendar"
+                    >
+                    <p class="publications__card-data">12 мая 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="publications__card">
+              <img
+                src="./assets/img/man.png"
+                alt="man"
+                class="publications__card-image"
+              >
+              <div class="publications__card-content">
+                <h3 class="publications__card-title">Как мы подбираем людей</h3>
+                <p class="publications__card-text">
+                  Реализация дополнительного поля для элементов, которое
+                  генерируется по определенным правилам (как SEO поля).
+                </p>
+                <div class="publications__card-bottom">
+                  <img
+                    src="./assets/img/svg/cossa.svg"
+                    alt="logo"
+                    class="publications__card-logo"
+                  >
+                  <div class="publications__card-bottom">
+                    <img
+                      src="./assets/img/svg/calendar.svg"
+                      alt="calendar"
+                      class="publications__card-calendar"
+                    >
+                    <p class="publications__card-data">12 мая 2021</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--publications end-->
+    </main>
+    <footer class="footer">
+      <div class="wrapper footer__wrapper">
+        <div class="footer__container">
+          <div class="footer__contacts">
+            <h2 class="footer__title">Отправить сайт на оценку</h2>
+            <p class="footer__text">
+              Рассчитать смету? Проконсультировать по проекту? Подписать NDA?
+              Легко!
+            </p>
+            <div class="footer__contacts-content">
+              <div class="footer__contacts-item">
+                <p class="footer__contacts-name">Наш адрес</p>
+                <h3 class="footer__contacts-value adress">
+                  Минск, Бирюзова 4/5, каб. 4005
+                </h3>
+              </div>
+              <div class="footer__contacts-item">
+                <p class="footer__contacts-name">Время работы</p>
+                <h3 class="footer__contacts-value">пн-пт, с 9:00 до 18:00</h3>
+              </div>
+              <div class="footer__contacts-item">
+                <p class="footer__contacts-name">Звоните</p>
+                <h3 class="footer__contacts-value">+7 (495) 128-13-24</h3>
+              </div>
+              <div class="footer__contacts-item">
+                <p class="footer__contacts-name">Пишите</p>
+                <h3 class="footer__contacts-value email">
+                  info@manao-team.com @ManaoTeamBot (Telegram, Viber)
+                </h3>
+              </div>
+              <ul class="footer__links">
+                <li class="footer__link">Facebook</li>
+                <li class="footer__link">Instagram</li>
+                <li class="footer__link">Vkontakte</li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__form-container">
+            <form action="#!" method="POST" class="footer__form" id="form">
+              <label class="footer__form-label">
+                <input type="text" placeholder="Ваше имя" id="nameInput" >
+                <span class="error" id="nameError"></span>
+              </label>
+              <label class="footer__form-label label-adress">
+                Адрес сайта
+                <input
+                  type="text"
+                  placeholder="manao@gmail.com"
+                  class="footer__input-adress"
+                  id="emailInput"
+                >
+                <span class="error" id="emailError"></span>
+              </label>
+              <label class="footer__form-label">
+                <textarea
+                  class="footer__textarea"
+                  placeholder="Описание задач"
+                  id="textarea"
+                ></textarea>
+              </label>
+              <div class="footer__checkbox-container">
+                <label class="checkbox-label">
+                  <input
+                    type="checkbox"
+                    id="checkbox1"
+                    name="checkbox1"
+                    class="checkbox-input"
+                  >
+                  Мне нужна консультация
+                </label>
+                <label class="checkbox-label">
+                  <input
+                    type="checkbox"
+                    id="checkbox2"
+                    name="checkbox2"
+                    class="checkbox-input"
+                    checked
+                  >
+                  Подберите для нас тариф
+                </label>
+                <label class="checkbox-label">
+                  <input
+                    type="checkbox"
+                    id="checkbox3"
+                    name="checkbox3"
+                    class="checkbox-input"
+                  >
+                  Готовы предоставить доступ для более детальной оценки
+                </label>
+              </div>
+              <div class="footer__button-block">
+                <p class="footer__agreement">
+                  Нажимая на кнопку, вы соглашаетесь на обработку
+                  <span>персональных данных </span>
+                </p>
+                <button type="submit" class="footer__button">
+                  отправить заявку
+                </button>
+              </div>
+            </form>
+            <div id="modal" class="modal">
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p class="modal-text">Форма успешно отправлена!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__line"></div>
+        <div class="footer__bottom">
+          <div class="footer__icons-box">
+            <img
+              src="./assets/img/svg/visa-secure.svg"
+              alt="visa-secure"
+              class="footer__icon"
+            >
+            <img src="./assets/img/svg/visa.svg" alt="" class="footer__icon" >
+            <img
+              src="./assets/img/svg/paypal.svg"
+              alt="visa"
+              class="footer__icon"
+            >
+            <img
+              src="./assets/img/svg/mastercard1.svg"
+              alt="mastercard"
+              class="footer__icon"
+            >
+            <img
+              src="./assets/img/svg/mastercard2.svg"
+              alt="mastercard"
+              class="footer__icon"
+            >
+            <img
+              src="./assets/img/svg/belcard1.svg"
+              alt="belcard"
+              class="footer__icon"
+            >
+            <img
+              src="./assets/img/svg/belcard2.svg"
+              alt="belcard"
+              class="footer__icon"
+            >
+            <img
+              src="./assets/img/svg/alfa.svg"
+              alt="alfa"
+              class="footer__icon"
+            >
+          </div>
+          <p class="footer__politics">Политика обработки персональных данных</p>
+          <p class="footer__support">
+            Manao.Support — «Битриксоиды» до мозга костей :)
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
